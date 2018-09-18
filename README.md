@@ -13,7 +13,7 @@ This program has the following dependencies:
   
 All of these dependencies can be found in main directory.
 
-Suppose you already have catalogs in various band in your computers. After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp. The function of 'Tree to Protobuf' is used to build index file. After generated the index files, you can run the program in /mcatCS/Min-conflict Data Layout Strategy/min-conflict data layout.cpp to lay out the index files.  
+Suppose you already have catalogs in various band in your computers. After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp. The function of 'Tree to Protobuf' is used to generate index file. Then you will get the index files, run the program in /mcatCS/Min-conflict Data Layout Strategy/min-conflict data layout.cpp to lay out the index files.  
 
 ## Query examples
 
