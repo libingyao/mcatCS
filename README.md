@@ -17,7 +17,7 @@ Suppose you already have catalogs in various band in your computers. After insta
 
 ## Query examples
 
-After these step, you can cross-match and query certain celestial object data from the catalogs using the function 'Protobuf to Tree' in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp.
+After these steps, you can cross-match and query certain celestial object data from the catalogs using the function 'Protobuf to Tree' in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp.
 
 Input the coordinates: 43.5923, -89.9253
 
