@@ -10,12 +10,13 @@ This program has the following dependencies:
   - cfitsio 3.3
   - Healpix_3.20
   - protobuf_2.6.1
-  
- All of these dependencies can be found in main directory.
+All of these dependencies can be found in main directory.
 
-Guideline
+Suppose you already have catalogs in various band in your computers. After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp. The function of 'Tree to Protobuf' is used to build index file. After generated the index files, you can run the program in /mcatCS/Min-conflict Data Layout Strategy/min-conflict data layout.cpp to lay out the index files.  
 
-After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp
-The function of 'Tree to Protobuf' is used to build index file. After generated the index files, you can run the program in /mcatCS/Min-conflict Data Layout Strategy
+Query examples
 
-'Protobuf to Tree' is used to query
+After these step, you can cross-match and query certain celestial object data from the catalogs using the function in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp.
+
+Input the coordinates: 43.5923, -89.9253
+Then, you will get all the celestial coordinate information and the celestial line number in their original catalog that matched with the coordinates of the input.
