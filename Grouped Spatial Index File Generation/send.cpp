@@ -42,7 +42,8 @@ void send(string ip, string request) {
 int main()
 {
     cout<<"Please input the target coordinates: ";
-    reqStr = "45.01078800 -85.42365300";
+    cin>>reqStr;
+    //reqStr = "45.01078800 -85.42365300";
     send(SERVER_IP1, reqStr);
 	send(SERVER_IP2, reqStr);
 	send(SERVER_IP3, reqStr);
