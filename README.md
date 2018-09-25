@@ -19,6 +19,6 @@ Suppose you already have catalogs in various band in your computers. After insta
 
 After these steps, you can cross-match and query certain celestial object data from the catalogs using the function 'Protobuf to Tree' in /mcatCS/Grouped Spatial Index File Generation/GSIF_main.cpp. You can run the program on several servers using /mcatCS/Grouped Spatial Index File Generation/send.cpp to send the query command to all the servers.
 
-The example of Input command: 43.5923, -89.9253
+The input command example: 43.5923, -89.9253
 
 Then, you will get all the celestial coordinate information and the celestial line number in their original catalog that matched with the coordinates of the input.
