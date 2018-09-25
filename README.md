@@ -13,12 +13,12 @@ This program has the following dependencies:
   
 All of these dependencies can be found in main directory.
 
-Suppose you already have catalogs in various band in your computers. After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp. The function of 'Tree to Protobuf' is used to generate index file. Then you will get the index files, run the program in /mcatCS/Min-conflict Data Layout Strategy/min-conflict data layout.cpp to lay out the index files.  
+Suppose you already have catalogs in various band in your computers. After install all these software, you can run the program in /mcatCS/Grouped Spatial Index File Generation/GSIF_main.cpp. The function of 'Tree to Protobuf' is used to generate index file. Then you will get the index files, run the program in /mcatCS/Min-conflict Data Layout Strategy/min-conflict data layout.cpp to lay out the index files.  
 
 ## Query examples
 
-After these steps, you can cross-match and query certain celestial object data from the catalogs using the function 'Protobuf to Tree' in /mcatCS/Grouped Spatial Index File Generation/src/GSIF_main.cpp.
+After these steps, you can cross-match and query certain celestial object data from the catalogs using the function 'Protobuf to Tree' in /mcatCS/Grouped Spatial Index File Generation/GSIF_main.cpp. You can run the program on several servers using /mcatCS/Grouped Spatial Index File Generation/send.cpp to send the query command to all the servers.
 
-Input the coordinates: 43.5923, -89.9253
+The example of Input command: 43.5923, -89.9253
 
 Then, you will get all the celestial coordinate information and the celestial line number in their original catalog that matched with the coordinates of the input.
