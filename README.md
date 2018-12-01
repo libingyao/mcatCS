@@ -7,7 +7,8 @@ mcatCS contains two parts, grouped spatial index file generation and min-conflic
 
 This program has the following dependencies:
   - Healpix_3.20
-  - protobuf_2.6.1  </br> 
+  - protobuf_2.6.1  
+
 All of these dependencies can be found in main directory.
 
 
@@ -27,14 +28,13 @@ It will generate an executable file：Query
 
 CONFIGURE PARAMETERS
 
-   --with-healpix-lib           
-   Path to the HEALPix library (libhealpix_cxx.a) 
+   --with-healpix-lib               Path to the HEALPix library (libhealpix_cxx.a) 
    
-   --with-healpix-include       | Path to the HEALPix include (healpix_base.h ..)
+   --with-healpix-include        Path to the HEALPix include (healpix_base.h ..)
    
-   --with-protobuf-lib          | Path to the Protobuf library (libprotobuf.a)
+   --with-protobuf-lib           Path to the Protobuf library (libprotobuf.a)
    
-   --with-protobuf-include      | Path to the Protobuf include
+   --with-protobuf-include       Path to the Protobuf include
 
 
 ## Operating guide
