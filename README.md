@@ -14,19 +14,19 @@ All of these dependencies can be found in main directory.
 
 ## Installation
 
-Program: Build Grouped Spatial Index File <br>
+Folder: Build Grouped Spatial Index File <br>
   - ./configure [options] <br>
   - make 
   
 It will generate an executable file：BuildIndex
 
-Program: Query <br>
+Folder: Query <br>
   - ./configure [options] <br>
   - make 
   
 It will generate an executable file：Query
 
-Program: Request <br>
+Folder: Request <br>
   - make 
   
 It will generate an executable file：Request
