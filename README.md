@@ -46,8 +46,7 @@ CONFIGURE PARAMETERS
 
 ## Query examples
 
-
-
-The input command example: 43.5923, -89.9253
+Please input the catalog path: /home/...... <br>
+Please input the target coordinates: 43.5923, -89.9253
 
 Then, you will get all the celestial coordinate information and the celestial line number in their original catalog that matched with the coordinates of the input.
