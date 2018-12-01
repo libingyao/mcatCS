@@ -15,7 +15,7 @@ All of these dependencies can be found in main directory.
 ## Installation
 
 Program: Build Grouped Spatial Index File <br>
-  - /configure [options] <br>
+  - ./configure [options] <br>
   - make 
   
 It will generate an executable file：BuildIndex
