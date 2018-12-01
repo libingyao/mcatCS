@@ -26,6 +26,11 @@ Program: Query <br>
   
 It will generate an executable file：Query
 
+Program: Request <br>
+  - make 
+  
+It will generate an executable file：Request
+
 CONFIGURE PARAMETERS
 
    --with-healpix-lib = Path to the HEALPix library (libhealpix_cxx.a) <br> 
