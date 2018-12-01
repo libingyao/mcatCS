@@ -7,7 +7,7 @@ mcatCS contains two parts, grouped spatial index file generation and min-conflic
 
 This program has the following dependencies:
   - Healpix_3.20
-  - protobuf_2.6.1  <\br> 
+  - protobuf_2.6.1  </br> 
 All of these dependencies can be found in main directory.
 
 
