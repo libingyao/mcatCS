@@ -15,15 +15,13 @@ All of these dependencies can be found in main directory.
 ## Installation
 
 Program: Build Grouped Spatial Index File <br>
-  1 ./configure [options] <br>
-  2  make <br>
+  - /configure [options] <br>
+  - make <br>
 It will generate an executable file：BuildIndex
 
-Program: Query
-
-  1 ./configure [options]
-  2 make
-
+Program: Query <br>
+  - ./configure [options] <br>
+  - make <br>
 It will generate an executable file：Query
 
 CONFIGURE PARAMETERS
@@ -38,9 +36,9 @@ CONFIGURE PARAMETERS
 
 
 ## Operating guide
-1 ./BUildIndex                  To generate index file 
-2 ./Query                       To run query server(s)
-3 ./Request                     To input the target object coordinates
+  - ./BUildIndex                  To generate index file 
+  - ./Query                       To run query server(s)
+  - ./Request                     To input the target object coordinates
 
 ## Query examples
 
