@@ -35,7 +35,7 @@ CONFIGURE PARAMETERS
 
 
 ## Operating guide
-  - ./BUildIndex                 <br> 
+  - ./BuildIndex                 <br> 
   To generate index file 
   
   - ./Query                      <br> 
