@@ -15,32 +15,32 @@ All of these dependencies can be found in main directory.
 ## Installation
 
 Program: Build Grouped Spatial Index File
-1.  ./configure [options]
-2.  make
+  1 ./configure [options]
+  2  make
 
 It will generate an executable file：BuildIndex
 
 Program: Query
-1) ./configure [options]
-2) make
+  1 ./configure [options]
+  2 make
 
 It will generate an executable file：Query
 
 CONFIGURE PARAMETERS
 
-   --with-healpix-lib               Path to the HEALPix library (libhealpix_cxx.a) 
+   --with-healpix-lib = Path to the HEALPix library (libhealpix_cxx.a) 
    
-   --with-healpix-include        Path to the HEALPix include (healpix_base.h ..)
+   --with-healpix-include = Path to the HEALPix include (healpix_base.h ..)
    
-   --with-protobuf-lib           Path to the Protobuf library (libprotobuf.a)
+   --with-protobuf-lib = Path to the Protobuf library (libprotobuf.a)
    
-   --with-protobuf-include       Path to the Protobuf include
+   --with-protobuf-include = Path to the Protobuf include
 
 
 ## Operating guide
-1) ./BUildIndex                  To generate index file 
-2) ./Query                       To run query server(s)
-3) ./Request                     To input the target object coordinates
+1 ./BUildIndex                  To generate index file 
+2 ./Query                       To run query server(s)
+3 ./Request                     To input the target object coordinates
 
 ## Query examples
 
