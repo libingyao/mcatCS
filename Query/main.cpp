@@ -253,17 +253,15 @@ int main()
     kd.pb2tree();
     kd.query(p, 5);
 
-    int temp, tempnum;
-    const char* catalog[]= {"2MASS", "PPXML", "SDSS"};
+    int tempnum;
     srand(time(0));
     while(!nq.empty())
     {
 
         PDP tm = nq.top();
         printf("RA = %lf, DEC = %lf, " , tm.p.x[0], tm.p.x[1] );
-        temp=rand()%3;
-        tempnum=rand()%(19589-14792+1)+14792;
-        printf("%s, %d\n", catalog[temp], tempnum);
+        tempnum=rand()%(19589-4792+1)+4792;
+        printf("%d\n", tempnum);
         nq.pop();
     }
     gettimeofday(&t2,NULL);
