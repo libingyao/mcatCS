@@ -1,7 +1,7 @@
 # mcatCS
 This is the main source code of mcatCS, which provides a novel cross-matching scheme for multi-band astronomical catalogs.
 
-mcatCS contains two parts, grouped spatial index file generation and min-conflict data layout strategy. You need to have original catalogs, then extract celestial coordinate information (right ascension and declination) and the celestial line number in each catalog from the original catalog, run program Build Grouped Spatial Index File to generate index file. Then, run program Query to search the objects that matched with the target. If you want to run it on multi-node environment, use min-conflict data layout strategy to distribute the data to each node, and upload the code packages.
+mcatCS contains two parts, grouped spatial index file generation and min-conflict data layout strategy. You need to have original catalogs, then extract celestial coordinate information (right ascension and declination) in each catalog from the original catalog, run program Build Grouped Spatial Index File to generate index file. Then, run program Query to search the objects that matched with the target. If you want to run it on multi-node environment, use min-conflict data layout strategy to distribute the data to each node, and upload the code packages.
 
 ## Prerequisites
 
